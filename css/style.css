@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Alexandria", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
 }
 header {
     display: flex;
@@ -31,17 +36,24 @@ nav ul {
 }
 nav ul li {
     margin: 0 15px;
+    font-weight:600;
+    text-transform: uppercase;
 }
 nav ul li a {
     color: white;
     text-decoration: none;
 }
 #hero {
-    height: 1230px;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f4f4f4;
+    background: white;
+    background-image: url('../img/c_mask.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right -41px;
+    
 }
 #content {
     height: 936px;
